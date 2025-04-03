@@ -1,0 +1,66 @@
+
+body {
+    background-color: #0f0f0f;
+    color: #e0e0e0;
+    font-family: 'Inter', 'Segoe UI', 'Roboto', sans-serif;
+    margin: 0;
+    padding: 2rem;
+  }
+  
+
+  input[type="text"], textarea {
+    background-color: #fdfdfb;
+    border: 1px solid #333;
+    color: #1a1a1a;
+    padding: 12px 16px;
+    border-radius: 8px;
+    width: 100%;
+    font-size: 1rem;
+    transition: border-color 0.2s, box-shadow 0.2s;
+  }
+  
+  input[type="text"]:focus, textarea:focus {
+    outline: none;
+    border-color: #2b4a69;
+    box-shadow: 0 0 6px #2b4a69aa;
+  }
+  
+
+  button {
+    background-color: #2b4a69;
+    color: #fdfdfb;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  
+  button:active {
+    transform: translateY(0);
+    box-shadow: 0 2px 6px #00ffd588;
+  }
+
+  button:disabled {
+    background-color: #5f5f5f;
+  }
+  
+
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  #messageContent
+  {
+    text-align: left;
+  }
+
+  .actionSection
+  {
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }

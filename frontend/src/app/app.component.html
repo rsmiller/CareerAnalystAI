@@ -1,0 +1,17 @@
+<!-- Hi there -->
+<div class="container">
+  <h1>Career Analyst AI</h1>
+  <p>asdasdasdasdasd</p>
+
+  <div class="promptSection">
+    <input type="text" id="iPrompt" placeholder="What career are you interestted in going into?" [(ngModel)]="promptMessage"/>
+  </div>
+  
+  <div class="actionSection">
+    <button (click)="doSubmit()" [disabled]="!enabledBtn">Do stuff</button>
+  </div>
+
+  <div id="messageContent" [innerHTML]="messageContent" >
+    
+  </div>
+</div>
