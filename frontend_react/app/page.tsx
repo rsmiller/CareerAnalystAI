@@ -46,7 +46,7 @@ export default function Home() {
   return (
     <div className="container">
       <h1>Career Analyst AI</h1>
-      <p>This is a very simple example of how you can leverage React, C#, SignalR, and OpenAI to build a tailored AI chatbot. In this example this chat bot is tailored to be a career analyst and give detailed no-BS information when prompted about a carrer.</p>
+      <p>This is a simple example of leveraging Angular or React, C#, SignarR, and OpenAI to build a tailored AI chatbot. In this example, this chatbot is tailored to be a career analyst and give detailed, no-BS information when prompted about a career.</p>
 
       <div className="promptSection">
         <input type="text" id="iPrompt" placeholder="What career are you interestted in going into?" value={promptMessage} onChange={e => setPromptText(e.target.value)}/>

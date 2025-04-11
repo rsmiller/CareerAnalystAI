@@ -52,6 +52,7 @@ body {
     max-width: 600px;
     margin: 0 auto;
     text-align: center;
+    margin-top: 50px;
   }
   
   #messageContent
@@ -63,4 +64,9 @@ body {
   {
     margin-top: 25px;
     margin-bottom: 25px;
+  }
+
+  .promptSection
+  {
+    margin-top: 25px;
   }
